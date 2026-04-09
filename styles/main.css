@@ -397,6 +397,23 @@ footer {
 }
 
 @media (max-width: 768px) {
+        .navbar {
+        flex-direction: column;
+        padding: 1rem 5%;
+        gap: 0.8rem;
+    }
+    .logo {
+        white-space: nowrap;
+    }
+    .nav-links {
+        gap: 1.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-links a {
+        font-size: 0.75rem;
+    }
+
     .two-col-container {
         grid-template-columns: 1fr;
         gap: 4rem;
